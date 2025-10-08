@@ -6,64 +6,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>deadline 7/10</title>
+    <link rel="stylesheet" href="style1.css">
+    <title>deadline 7/102</title>
 </head>
 <body>
     <div class="container">
-        <section class = "left_side">
-            <div class="left_side_navigation">
-                <nav>
-                    <img class = "left_side_navigation_img" src="element.png" alt="element-4">   
-                    <img class = "left_side_navigation_img" src="graph.png" alt="graph">    
-                    <img class = "left_side_navigation_img" src="medal-star.png" alt="medal-star">
-                    <img class = "left_side_navigation_img" src="messages.png" alt="messages">    
-                    <img class = "left_side_navigation_img"  src="setting.png" alt="setting">    
-                </nav>
+        <div class="left_side">
+            <div class="left_navigation">
+                <div><img src="element.png"></div>
+                <div><img src="graph.png"></div>
+                <div><img src="medal-star.png"></div>
+                <div><img src="messages.png"></div>
+                <div><img src="setting.png"></div>
             </div>
-        </section>   
-        <section class = "main">
-            <div class = "main_header">
-                <div class="tex-box">
-                    <div class="main_header__content">Welcome, Amanda</div>
-                    <div class="main_header_small__content">Tue, 07 June 2022</div>
-                </div>
-                <div class ="search-nofi-box">
+        </div>
+        <div class="main">
+            <div class="main_header">
+                <div class ="text_box">
+                    Welcome, Amanda
+                    <small>Tue, 07 June 2022</small>
+                </div> 
+                <div class = "nofi_search_box">
                     <div class="search">
                         <img src="search-normal.png" />
                         <input type="text" placeholder="Search" />
+                    </div>  
+                    <div class="nofi">
+                        <img src="notification-bing.png" />
                     </div>
-                    <div class="notification">
-                        <img src="notification-bing.png" alt="notification">
-                    </div>
-                    <div class="avatar">
-                        <img src="pic 1.png" alt="avatar" >
-                    </div>
+                    <div class = "user"><img src="pic 1.png" /></div>
                 </div>
             </div>
-            <div class = "profile">
-                <img class = "profile_img" src="Rectangle 6691.png" alt="profile color">
-                <div class = "profile_text">
-                    <div class = "profile_name">
-                        <div class = "profile_name_user">
-                            <img src="pic2.png" alt="profile">
-                            <div class = "text_box">
-                                <div class = "profile_name_text">Alexa Rawles</div>
-                                <div class = "profile_name_text_small"> alexarawles@gmail.com </div>
+            <div class="main_infor">
+                <img class = "infor_header"  src="Rectangle 6691.png"/>     
+                <div class="infor_text">
+                    <div class = "name" >
+                        <div class = "name_box">
+                            <img class = "user2" src="pic2.png"/>
+                            <div class = "name_text">
+                                <div>Alexa Rawles</div>
+                                <small>alexarawles@gmail.com</small>
                             </div>
                         </div>
-                        <div class = "profile_name_edit">Edit</div>
-                    </div>   
-                    <div class = "profile_infor">
+                        <div class = "edit_box">Edit</div>
+                    </div>
+                    <div class = "infor_form">
                         <div class = "form_right">
                             <div class="form-input">
                                 <label>Full Name</label>
                                 <div class="input-box">
                                    <div>Your First Name</div> 
-                                    <div><img src="arrow-down.png" alt="edit"></div>
                                 </div>    
                             </div>
-                            <div class="form-input">
+                             <div class="form-input">
                                 <label>Gender</label>
                                 <div class="input-box">
                                    <div>Your Gender</div> 
@@ -83,7 +78,6 @@
                                 <label>Nick name</label>
                                 <div class="input-box">
                                    <div>Your Nick name</div> 
-                                    <div><img src="arrow-down.png" alt="edit"></div>
                                 </div>    
                             </div> 
                             <div class="form-input">
@@ -99,23 +93,25 @@
                                    <div>Your Time Zone</div> 
                                     <div><img src="arrow-down.png" alt="edit"></div>
                                 </div>    
-                            </div>  
-                        </div>   
+                            </div>
+                        </div>
                     </div>
-                </div>  
-            </div>
-            <div class = "email_address">
-                <div>My email Address</div>
-                <div class = "email_address_email">   
-                    <img src="icon.png" alt="email">
-                    <div class ="text_box">
-                        <div class = "profile_name_text">alexarawles@gmail.com</div>
-                        <div class = "profile_name_text_small"> 1 month ago </div>
+                    <div class = "main_email">
+                        My email Address
+                        <div class = "email_box">
+                            <img class = "icon" src="icon.png"/>
+                            <div class = "email_text">
+                                <div >alexarawles@gmail.com</div>
+                                <small>1 month ago</small>
+                            </div>
+                        </div>
+                        <button class="add_box">
+                                +Add Email Address
+                        </button>
                     </div>
                 </div>
-                <div class = "email_address_change">+Add Email Address</div>
-            </div>
-        </section> 
-    </div>   
+             </div>
+        </div>
+    </div>
 </body>
 </html>
